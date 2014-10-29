@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://353513617.github.io/"/>
-  <updated>2014-10-29T06:41:02.604Z</updated>
+  <updated>2014-10-29T06:41:55.421Z</updated>
   <id>http://353513617.github.io/</id>
   
   <author>
@@ -19,11 +19,13 @@
     <link href="http://353513617.github.io/2014/10/29/fcitx%E8%BE%93%E5%85%A5%E6%B3%95%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     <id>http://353513617.github.io/2014/10/29/fcitx输入法乱码解决方法/</id>
     <published>2014-10-29T05:41:54.000Z</published>
-    <updated>2014-10-29T06:40:42.000Z</updated>
-    <content type="html"><![CDATA[<p>&lt;—! more —&gt;<br>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_blank" rel="external">Linux Mint 17 V2版中文化与输入法</a>的教程失效了，如果按原来的方法安只会出现乱码。看了贴吧某人贴的方法顺利解决<br>sudo apt-get install fcitx fcitx-bin fcitx-config-common fcitx-config-gtk fcitx-data fcitx-frontend-gtk2 fcitx-frontend-gtk3 fcitx-frontend-qt4 fcitx-googlepinyin fcitx-libs fcitx-module-dbus fcitx-module-x11 fcitx-modules fcitx-pinyin fcitx-table fcitx-table-wubi fcitx-ui-classic fcitx-table-wbpy</p>
+    <updated>2014-10-29T06:41:37.000Z</updated>
+    <content type="html"><![CDATA[<p>&lt;—! more —&gt;</p>
+<p>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_blank" rel="external">Linux Mint 17 V2版中文化与输入法</a>的教程失效了，如果按原来的方法安只会出现乱码。看了贴吧某人贴的方法顺利解决<br>sudo apt-get install fcitx fcitx-bin fcitx-config-common fcitx-config-gtk fcitx-data fcitx-frontend-gtk2 fcitx-frontend-gtk3 fcitx-frontend-qt4 fcitx-googlepinyin fcitx-libs fcitx-module-dbus fcitx-module-x11 fcitx-modules fcitx-pinyin fcitx-table fcitx-table-wubi fcitx-ui-classic fcitx-table-wbpy</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>&lt;—! more —&gt;<br>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_blank" ]]>
+    <![CDATA[<p>&lt;—! more —&gt;</p>
+<p>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_bla]]>
     </summary>
     
       <category term="linux" scheme="http://353513617.github.io/tags/linux/"/>
@@ -37,7 +39,7 @@
     <link href="http://353513617.github.io/2014/10/29/markdown/"/>
     <id>http://353513617.github.io/2014/10/29/markdown/</id>
     <published>2014-10-29T02:48:47.000Z</published>
-    <updated>2014-10-29T06:40:37.000Z</updated>
+    <updated>2014-10-29T06:41:42.000Z</updated>
     <content type="html"><![CDATA[<p>&lt;—! more —&gt;</p>
 <h2 id="标题设置">标题设置</h2>
 <p>类Atx形式:</p>
