@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[楚门的博客]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://353513617.github.io/"/>
+  <updated>2014-10-29T06:37:31.703Z</updated>
+  <id>http://353513617.github.io/</id>
+  
+  <author>
+    <name><![CDATA[楚门]]></name>
+    <email><![CDATA[zl1989@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[linux mint 17的fcitx输入法乱码解决方法]]></title>
+    <link href="http://353513617.github.io/2014/10/29/fcitx%E8%BE%93%E5%85%A5%E6%B3%95%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://353513617.github.io/2014/10/29/fcitx输入法乱码解决方法/</id>
+    <published>2014-10-29T05:41:54.000Z</published>
+    <updated>2014-10-29T06:14:43.000Z</updated>
+    <content type="html"><![CDATA[<p>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_blank" rel="external">Linux Mint 17 V2版中文化与输入法</a>的教程失效了，如果按原来的方法安只会出现乱码。看了贴吧某人贴的方法顺利解决<br>sudo apt-get install fcitx fcitx-bin fcitx-config-common fcitx-config-gtk fcitx-data fcitx-frontend-gtk2 fcitx-frontend-gtk3 fcitx-frontend-qt4 fcitx-googlepinyin fcitx-libs fcitx-module-dbus fcitx-module-x11 fcitx-modules fcitx-pinyin fcitx-table fcitx-table-wubi fcitx-ui-classic fcitx-table-wbpy</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>原来的<a href="www.mintos.org">薄荷开源网</a>的<a href="http://www.mintos.org/config/mint-qiana-config.html" target="_blank" rel="external">Linux ]]>
+    </summary>
+    
+      <category term="linux" scheme="http://353513617.github.io/tags/linux/"/>
+    
+      <category term="linux" scheme="http://353513617.github.io/categories/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[markdown]]></title>
+    <link href="http://353513617.github.io/2014/10/29/markdown/"/>
+    <id>http://353513617.github.io/2014/10/29/markdown/</id>
+    <published>2014-10-29T02:48:47.000Z</published>
+    <updated>2014-10-29T05:42:34.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="标题设置">标题设置</h2>
+<p>类Atx形式:</p>
+<figure class="highlight text"><pre><div class="line"><span class="preprocessor">#H1</span></div><div class="line"><span class="preprocessor">##H2</span></div><div class="line"><span class="preprocessor">######H6</span></div></pre></figure>
+
+<p>类Setext形式:</p>
+<figure class="highlight text"><pre><div class="line"><span class="header">标题１</span></div><div class="line">====</div><div class="line"><span class="header">标题２</span></div><div class="line">----</div></pre></figure>
+
+<h2 id="区块引用">区块引用</h2>
+<p>使用&gt;作为段落前缀来标识引用文字段落:</p>
+<figure class="highlight text"><pre><div class="line"><span class="input"><span class="prompt">&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,</span></span></div><div class="line">&gt; consectetuer adipiscing elit. <span class="constant">Aliquam</span> hendrerit mi posuere lectus.</div><div class="line">&gt; <span class="constant">Vestibulum</span> enim wisi, viverra nec, fringilla <span class="keyword">in</span>, laoreet vitae, risus.</div><div class="line"><span class="input"><span class="prompt">&gt;</span></span></div><div class="line">&gt; <span class="constant">Donec</span> sit amet nisl. <span class="constant">Aliquam</span> semper ipsum sit amet velit. <span class="constant">Suspendisse</span></div><div class="line">&gt; id sem consectetuer libero luctus adipiscing.</div></pre></figure>
+
+<p>或者硬换行之前第一个段落只用一个&gt;</p>
+<figure class="highlight text"><pre><div class="line">&gt; This <span class="keyword">is</span> a blockquote <span class="keyword">with</span> two <span class="property">paragraphs</span>. Lorem ipsum dolor sit amet,</div><div class="line">consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.</div><div class="line">Vestibulum enim wisi, viverra nec, fringilla <span class="keyword">in</span>, laoreet vitae, risus.</div><div class="line"></div><div class="line">&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse</div><div class="line"><span class="property">id</span> sem consectetuer libero luctus adipiscing.</div></pre></figure>
+
+<p>只需要多加一个&gt;，就得到嵌套的引用块(即引用块中的引用块)</p>
+<figure class="highlight text"><pre><div class="line">&gt; <span class="constant">This</span> is the first level of quoting.</div><div class="line"><span class="input"><span class="prompt">&gt;</span></span></div><div class="line">&gt; &gt; <span class="constant">This</span> is nested blockquote.</div><div class="line"><span class="input"><span class="prompt">&gt;</span></span></div><div class="line">&gt; <span class="constant">Back</span> to the first level.</div></pre></figure>
+
+<p>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：</p>
+<figure class="highlight text"><pre><div class="line"><span class="input"><span class="prompt">&gt; ## 这是一个标题。</span></span></div><div class="line">&gt; </div><div class="line"><span class="input"><span class="prompt">&gt; 1.   这是第一行列表项。</span></span></div><div class="line">&gt; <span class="number">2</span>.   这是第二行列表项。</div><div class="line"><span class="input"><span class="prompt">&gt; </span></span></div><div class="line">&gt; 给出一些例子代码：</div><div class="line"><span class="input"><span class="prompt">&gt; </span></span></div><div class="line">&gt;     return shell_exec(<span class="string">"echo $input | $markdown_script"</span>);</div></pre></figure>
+
+<h2 id="列表">列表</h2>
+<p>Markdown 支持有序列表和无序列表</p>
+<h3 id="无序列表">无序列表</h3>
+<p>无序列表可使用星号、加号和连字符（这几个符号是等价的，你喜欢哪个就用哪个）作为列表标记：</p>
+<figure class="highlight text"><pre><div class="line"><span class="bullet">*   </span>Red</div><div class="line"><span class="bullet">*   </span>Green</div><div class="line"><span class="bullet">*   </span>Blue</div></pre></figure>
+
+<p>等同于：</p>
+<figure class="highlight text"><pre><div class="line"><span class="addition">+   Red</span></div><div class="line"><span class="addition">+   Green</span></div><div class="line"><span class="addition">+   Blue</span></div></pre></figure>
+
+<p>也等同于：</p>
+<figure class="highlight text"><pre><div class="line">-<span class="ruby">   <span class="constant">Red</span></span></div><div class="line">-<span class="ruby">   <span class="constant">Green</span></span></div><div class="line">-<span class="ruby">   <span class="constant">Blue</span></span></div></pre></figure>
+
+<h3 id="有序列表">有序列表</h3>
+<p>有序列表使用数字加英文句点：</p>
+<figure class="highlight text"><pre><div class="line"><span class="bullet">1.  </span>Bird</div><div class="line"><span class="bullet">2.  </span>McHale</div><div class="line"><span class="bullet">3.  </span>Parish</div></pre></figure>
+
+<h2 id="强调">强调</h2>
+<p>Markdown使用星号和下划线作为表示强调。用一个<code>*</code>或<code>_</code>包裹的文本会使用<code>HTML &lt;em&gt;</code>标签包裹; 用两个<code>**</code>或<code>__</code>包裹的文本会使用<code>HTML &lt;strong&gt;</code>标签包裹。如:</p>
+<figure class="highlight text"><pre><div class="line"><span class="keyword">*</span>single asterisks<span class="keyword">*</span></div><div class="line">_single underscores_</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span>double asterisks<span class="keyword">*</span><span class="keyword">*</span></div><div class="line">__double underscores__</div></pre></figure>
+
+<p>将会输出为：</p>
+<figure class="highlight text"><pre><div class="line"><span class="tag">&lt;<span class="title">em</span>&gt;</span>single asterisks<span class="tag">&lt;/<span class="title">em</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="title">em</span>&gt;</span>single underscores<span class="tag">&lt;/<span class="title">em</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="title">strong</span>&gt;</span>double asterisks<span class="tag">&lt;/<span class="title">strong</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="title">strong</span>&gt;</span>double underscores<span class="tag">&lt;/<span class="title">strong</span>&gt;</span></div></pre></figure>
+
+<h2 id="插入图片">插入图片</h2>
+<p>两种方法实现图片插入，目前markdown图片嵌入语法分行内式和参考式，但都不支持调整图片，可以使用img元素调整图片大小</p>
+<h3 id="行内式">行内式</h3>
+<figure class="highlight text"><pre><div class="line">![<span class="link_label">Alt text</span>](<span class="link_url">/path/to/img.jpg</span>)</div><div class="line">![<span class="link_label">Alt text</span>](<span class="link_url">/path/to/img.jpg "Optional title"</span>)</div></pre></figure>
+
+<h3 id="参考式">参考式</h3>
+<figure class="highlight text"><pre><div class="line">![<span class="link_label">Alt text</span>][<span class="link_reference">id</span>]</div></pre></figure>
+
+<p>[id]是图片参考的名称，图片参考的定义方式则和连结参考一样：</p>
+<figure class="highlight text"><pre><div class="line">[<span class="link_reference">id</span>]:<span class="link_url"> url/to/image  "Optional title attribute"</span></div></pre></figure>
+
+<h3 id="img元素">img元素</h3>
+<figure class="highlight text"><pre><div class="line">&lt;img <span class="variable">src=</span> <span class="string">"/path/*.jpg"</span> <span class="variable">title=</span> <span class="string">"图片标题"</span> <span class="variable">height=</span> <span class="string">"图片高度"</span> <span class="variable">width=</span> <span class="string">"图片宽度"</span> <span class="variable">alt=</span> <span class="string">"无法载入时提示文本"</span>&gt;</div></pre></figure>
+
+<h2 id="自动链接">自动链接</h2>
+<figure class="highlight text"><pre><div class="line">&lt;http:<span class="comment">//example.com/&gt;</span></div></pre></figure>
+
+<p>邮址的自动链接也很类似，只是 Markdown 会先做一个编码转换的过程，把文字字符转成 16 进位码的 HTML 实体，这样的格式可以糊弄一些不好的邮址收集机器人，例如:</p>
+<figure class="highlight"><pre><div class="line">&lt;address@example.<span class="keyword">com</span>&gt;</div></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="标题设置">标题设置</h2>
+<p>类Atx形式:</p>
+<figure class="highlight text"><pre><div class="line"><span class="preprocessor">#H1</span></div><div]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://353513617.github.io/tags/hexo/"/>
+    
+      <category term="hexo" scheme="http://353513617.github.io/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://353513617.github.io/2014/10/25/hello-world/"/>
+    <id>http://353513617.github.io/2014/10/25/hello-world/</id>
+    <published>2014-10-25T12:24:40.000Z</published>
+    <updated>2014-10-25T12:24:40.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo server</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo generate</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo deploy</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
